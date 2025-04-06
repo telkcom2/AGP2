@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node", // Added moduleResolution option
+    "types": ["jest", "node"] // Include Jest types here
+  },
+  "include": ["server/**/*.ts", "tests/**/*.ts"],
+  "exclude": ["node_modules"]
+}
